@@ -5,17 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>InspireMe - Quote Generator</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
     <div class="container">
         <h1>InspireMe</h1>
         <div class="quote-box">
             <div class="quote-text">
-                <i class="fas fa-quote-left"></i>
+                <span>"</span>
                 <span id="quote">Click the button below to get inspired!</span>
-                <i class="fas fa-quote-right"></i>
+                <span>"</span>
             </div>
             <div class="quote-author">
                 <span id="author">Your Journey Begins</span>
@@ -24,19 +22,12 @@
         <div class="buttons">
             <button id="new-quote">Get Quote</button>
             <a id="tweet-quote" href="#" target="_blank" class="tweet-btn">
-                <i class="fab fa-twitter"></i> Tweet this
+                Tweet this
             </a>
-        </div>
-        <div class="categories">
-            <span class="category-label">Categories:</span>
-            <button class="category-btn active" data-category="all">All</button>
-            <button class="category-btn" data-category="motivation">Motivation</button>
-            <button class="category-btn" data-category="success">Success</button>
-            <button class="category-btn" data-category="life">Life</button>
         </div>
     </div>
     <footer>
-        <p>Created with <span class="heart">❤️</span> | Quotes to inspire your day</p>
+        <p>Quotes to inspire your day</p>
     </footer>
     <script src="script.js"></script>
 </body>
